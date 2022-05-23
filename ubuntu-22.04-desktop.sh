@@ -21,6 +21,14 @@ rm jetbrains-toolbox-1.24.11947.tar.gz
 ./jetbrains-toolbox-1.24.11947/jetbrains-toolbox
 rm -r jetbrains-toolbox-1.24.11947
 
+# discord
+
+wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
+sudo dpkg -i discord.deb
+rm discord.deb
+
+sudo apt --fix-broken install
+
 # # # BASH
 
 source ~/.bashrc
