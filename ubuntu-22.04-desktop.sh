@@ -29,6 +29,9 @@ rm discord.deb
 
 sudo apt --fix-broken install -y
 
+# vim
+sudo apt install -y vim
+
 # # # BASH
 
 source ~/.bashrc
