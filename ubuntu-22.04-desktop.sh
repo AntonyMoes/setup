@@ -27,7 +27,7 @@ wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=d
 sudo dpkg -i discord.deb
 rm discord.deb
 
-sudo apt --fix-broken install
+sudo apt --fix-broken install -y
 
 # # # BASH
 
